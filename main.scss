@@ -1,0 +1,14 @@
+body {
+  background-color: $light;
+}
+
+header {
+  background-color: $yellow;
+  padding: 20px 40px;
+
+  &.sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+}
