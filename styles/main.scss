@@ -1,1 +1,15 @@
-@import "common"
+$light: #FAFAFA;
+
+body {
+  background-color: $light;
+}
+
+header {
+  padding: 20px 40px;
+
+  &.sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+}
